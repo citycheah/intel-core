@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+.env
+*.duckdb
+*.sqlite
+*.db
+costs_ledger.csv
+tmp_staged_media/

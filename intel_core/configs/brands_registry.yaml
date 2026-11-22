@@ -1,0 +1,140 @@
+version: "1.0"
+
+countries:
+  AR: { display_name: "Argentina", aliases: ["Argentina"] }
+  AU: { display_name: "Australia", aliases: ["Australia"] }
+  AT: { display_name: "Austria", aliases: ["Austria", "Österreich"] }
+  BE: { display_name: "Belgium", aliases: ["Belgium", "België", "Belgique"] }
+  BR: { display_name: "Brazil", aliases: ["Brazil", "Brasil"] }
+  CA: { display_name: "Canada", aliases: ["Canada"] }
+  CL: { display_name: "Chile", aliases: ["Chile"] }
+  CO: { display_name: "Colombia", aliases: ["Colombia"] }
+  CZ: { display_name: "Czech Republic", aliases: ["Czech Republic", "Czechia"] }
+  DK: { display_name: "Denmark", aliases: ["Denmark", "Danmark"] }
+  EG: { display_name: "Egypt", aliases: ["Egypt"] }
+  FI: { display_name: "Finland", aliases: ["Finland", "Suomi"] }
+  FR: { display_name: "France", aliases: ["France"] }
+  DE: { display_name: "Germany", aliases: ["Germany", "Deutschland"] }
+  GR: { display_name: "Greece", aliases: ["Greece"] }
+  HK: { display_name: "Hong Kong", aliases: ["Hong Kong"] }
+  HU: { display_name: "Hungary", aliases: ["Hungary"] }
+  IN: { display_name: "India", aliases: ["India"] }
+  ID: { display_name: "Indonesia", aliases: ["Indonesia"] }
+  IE: { display_name: "Ireland", aliases: ["Ireland"] }
+  IL: { display_name: "Israel", aliases: ["Israel"] }
+  IT: { display_name: "Italy", aliases: ["Italy", "Italia"] }
+  JP: { display_name: "Japan", aliases: ["Japan"] }
+  KR: { display_name: "Korea, Republic of", aliases: ["Korea, Republic of", "South Korea"] }
+  KW: { display_name: "Kuwait", aliases: ["Kuwait"] }
+  LT: { display_name: "Lithuania", aliases: ["Lithuania"] }
+  MY: { display_name: "Malaysia", aliases: ["Malaysia"] }
+  MX: { display_name: "Mexico", aliases: ["Mexico", "México"] }
+  NL: { display_name: "Netherlands", aliases: ["Netherlands"] }
+  NZ: { display_name: "New Zealand", aliases: ["New Zealand"] }
+  NO: { display_name: "Norway", aliases: ["Norway"] }
+  PH: { display_name: "Philippines", aliases: ["Philippines"] }
+  PL: { display_name: "Poland", aliases: ["Poland"] }
+  PT: { display_name: "Portugal", aliases: ["Portugal"] }
+  QA: { display_name: "Qatar", aliases: ["Qatar"] }
+  RO: { display_name: "Romania", aliases: ["Romania"] }
+  SA: { display_name: "Saudi Arabia", aliases: ["Saudi Arabia"] }
+  SG: { display_name: "Singapore", aliases: ["Singapore"] }
+  ZA: { display_name: "South Africa", aliases: ["South Africa"] }
+  ES: { display_name: "Spain", aliases: ["Spain", "España"] }
+  SE: { display_name: "Sweden", aliases: ["Sweden", "Sverige"] }
+  CH: { display_name: "Switzerland", aliases: ["Switzerland", "Switzerlands", "Schweiz"] }
+  TW: { display_name: "Taiwan, Province of China", aliases: ["Taiwan, Province of China", "Taiwan"] }
+  TH: { display_name: "Thailand", aliases: ["Thailand"] }
+  TR: { display_name: "Turkey", aliases: ["Turkey", "Türkiye"] }
+  AE: { display_name: "United Arab Emirates", aliases: ["United Arab Emirates", "UAE"] }
+  GB: { display_name: "United Kingdom", aliases: ["United Kingdom", "UK", "Great Britain"] }
+  US: { display_name: "United States", aliases: ["United States", "USA"] }
+  VN: { display_name: "Vietnam", aliases: ["Vietnam"] }
+
+brands:
+  BMW:
+    brand_id: "BMW"
+    display_name: "BMW"
+    vertical: "EU_AUTOMOTIVE"
+    aliases: ["bmw", "bmw deutschland", "bmw group", "bayerische motoren werke", "bmw i", "bmw m"]
+    keywords: ["bmw", "neue klasse", "xdrive", "bmwi", "bmw m"]
+    domains: ["bmw.de", "bmw.com", "bmw.co.uk", "bmw.fr", "bmwgroup.com"]
+  Mercedes-Benz:
+    brand_id: "Mercedes-Benz"
+    display_name: "Mercedes-Benz"
+    vertical: "EU_AUTOMOTIVE"
+    aliases: ["mercedes", "mercedes-benz", "mercedes benz", "mercedes-amg", "mercedes-eq", "mbusa"]
+    keywords: ["mercedes", "mercedes-benz", "amg", "eqs", "eqe", "mbux"]
+    domains: ["mercedes-benz.de", "mercedes-benz.com", "mercedes-benz.co.uk", "mercedes-benz.fr"]
+  Audi:
+    brand_id: "Audi"
+    display_name: "Audi"
+    vertical: "EU_AUTOMOTIVE"
+    aliases: ["audi", "audi deutschland", "audi ag", "audi sport", "audi e-tron"]
+    keywords: ["audi", "quattro", "e-tron", "vorsprung"]
+    domains: ["audi.de", "audi.com", "audi.co.uk", "audi.fr"]
+  Porsche:
+    brand_id: "Porsche"
+    display_name: "Porsche"
+    vertical: "EU_AUTOMOTIVE"
+    aliases: ["porsche", "porsche deutschland", "porsche ag", "dr. ing. h.c. f. porsche"]
+    keywords: ["porsche", "taycan", "911", "macan", "cayenne"]
+    domains: ["porsche.de", "porsche.com", "porsche.co.uk", "porsche.fr"]
+  Maxis:
+    brand_id: "Maxis"
+    display_name: "Maxis"
+    vertical: "MY_TELCO"
+    aliases: ["maxis", "hotlink", "maxis fibre"]
+    keywords: ["maxis", "hotlink", "maxis home fibre"]
+    domains: ["maxis.com.my", "hotlink.com.my"]
+  CelcomDigi:
+    brand_id: "CelcomDigi"
+    display_name: "CelcomDigi"
+    vertical: "MY_TELCO"
+    aliases: ["celcomdigi", "celcom", "digi"]
+    keywords: ["celcomdigi", "celcom", "digi"]
+    domains: ["celcomdigi.com"]
+  U Mobile:
+    brand_id: "U Mobile"
+    display_name: "U Mobile"
+    vertical: "MY_TELCO"
+    aliases: ["u mobile", "umobile", "u5g"]
+    keywords: ["u mobile", "umobile"]
+    domains: ["u.com.my"]
+  Unifi:
+    brand_id: "Unifi"
+    display_name: "Unifi"
+    vertical: "MY_TELCO"
+    aliases: ["unifi", "tm unifi", "unifi mobile"]
+    keywords: ["unifi", "tm unifi"]
+    domains: ["unifi.com.my"]
+
+fx_rates_to_usd:
+  USD:
+    default: 1.00
+  EUR:
+    default: 1.08
+    "2024-01": 1.09
+    "2024-06": 1.07
+    "2024-12": 1.05
+    "2025-01": 1.04
+    "2025-06": 1.08
+    "2025-12": 1.09
+    "2026-01": 1.08
+    "2026-06": 1.09
+    "2026-11": 1.08
+  GBP:
+    default: 1.27
+    "2024-01": 1.27
+    "2024-06": 1.27
+    "2025-01": 1.24
+    "2025-06": 1.28
+    "2026-01": 1.27
+    "2026-06": 1.29
+    "2026-11": 1.28
+  MYR:
+    default: 0.225
+    "2024-01": 0.212
+    "2025-01": 0.223
+    "2026-01": 0.228
+    "2026-11": 0.230
